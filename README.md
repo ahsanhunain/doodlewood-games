@@ -21,6 +21,12 @@ _headers            Cloudflare Pages security + cache headers
 Connected to Cloudflare Pages. Every push to `main` deploys automatically.
 Build command: none. Output directory: `/`.
 
+## After editing css/style.css or js/main.js
+
+Bump the `?v=` number on the `<link>` and `<script>` tags in `index.html`.
+Browsers key their cache on the full URL, so without a bump a returning
+visitor can keep serving the old file.
+
 ## Editing images
 
 Source PNGs live in the old Portfolio repo. Re-export as 900px wide WebP
