@@ -32,7 +32,11 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:var(--body);color:var(--text);background:var(--wood-0);
-  overflow-x:hidden;line-height:1.65;-webkit-font-smoothing:antialiased}
+  overflow-x:hidden;line-height:1.65;-webkit-font-smoothing:antialiased;
+  cursor:default;-webkit-user-select:none;user-select:none}
+a{cursor:pointer}
+/* the email address stays selectable so visitors can copy it */
+.pick{-webkit-user-select:text;user-select:text;cursor:text}
 img{max-width:100%;display:block}
 :focus-visible{outline:2px solid var(--gold-lt);outline-offset:3px;border-radius:4px}
 .skip{position:absolute;left:-9999px;top:0;z-index:999;padding:12px 20px;
@@ -210,9 +214,13 @@ section{padding:70px 0 30px}
 .lnk:hover{border-color:var(--gold);transform:translateX(4px);
   background:linear-gradient(170deg,rgba(107,68,35,.8),rgba(52,32,10,.8))}
 .lnk-ic{width:36px;height:36px;border-radius:9px;flex-shrink:0;
-  display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--gold-lt);
+  display:flex;align-items:center;justify-content:center;color:var(--gold-lt);
   background:linear-gradient(180deg,var(--wood-4),var(--wood-2));
-  border:1px solid rgba(160,110,40,.4);box-shadow:inset 0 1px 0 rgba(255,214,140,.15)}
+  border:1px solid rgba(160,110,40,.4);box-shadow:inset 0 1px 0 rgba(255,214,140,.15);
+  transition:color .2s,border-color .2s}
+.lnk-ic svg{width:19px;height:19px;fill:currentColor;display:block;
+  filter:drop-shadow(0 1px 0 rgba(0,0,0,.55))}
+.lnk:hover .lnk-ic{color:#ffe08a;border-color:rgba(224,160,44,.7)}
 .lnk-t{font-family:var(--display);font-weight:700;font-size:14px;color:var(--cream);letter-spacing:.03em}
 .lnk-v{font-size:13px;color:var(--dim)}
 
