@@ -36,10 +36,11 @@
 
 <!-- Fonts, self hosted -->
 <link rel="preload" href="/fonts/Baloo2-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Baloo2-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Nunito-400.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- ?v= busts stale copies. Bump it whenever style.css or main.js changes. -->
-<link rel="stylesheet" href="/css/style.css?v=4">
+<link rel="stylesheet" href="/css/style.css?v=5">
 
 <script type="application/ld+json">
 {
@@ -72,7 +73,10 @@
 </div>
 
 <nav aria-label="Main">
-  <a href="#top" class="nb on">Home</a>
+  <a href="#top" class="nb-brand" aria-label="DoodleWood Games home">
+    <img src="/img/brand/icon-32.png" alt="" width="26" height="26" decoding="async">
+  </a>
+  <a href="#top" class="nb nb-home on">Home</a>
   <a href="#games" class="nb">Games</a>
   <a href="#studio" class="nb">Studio</a>
   <a href="#contact" class="nb nb-hire">Contact</a>
@@ -150,25 +154,6 @@
       <span class="bolt tl"></span><span class="bolt tr"></span>
       <div class="shot">
         <picture>
-          <source srcset="/img/games/octopus-tycoon.webp" type="image/webp">
-          <img src="/img/games/octopus-tycoon.jpg" alt="Octopus Energy Tycoon on Roblox" width="900" height="445" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-live"><span class="dot"></span>LIVE</span>
-        <span class="chip chip-plat">ROBLOX</span>
-      </div>
-      <div class="crate-body">
-        <h3>Octopus Energy Tycoon</h3>
-        <p class="role">Game Developer</p>
-        <p>Build your energy empire, expand the plant and stack the profits.</p>
-        <div class="tags"><span class="tag">Luau</span><span class="tag">Tycoon</span><span class="tag">Economy</span></div>
-        <a class="play" href="https://www.roblox.com/games/114201343561910/Octopus-Energy-Tycoon" target="_blank" rel="noopener">Play on Roblox →</a>
-      </div>
-    </article>
-
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
           <source srcset="/img/games/zombie-story.webp" type="image/webp">
           <img src="/img/games/zombie-story.jpg" alt="99 Days Zombie Story on Roblox" width="900" height="445" loading="lazy" decoding="async">
         </picture>
@@ -219,6 +204,25 @@
         <p>An underwater tracing adventure that teaches kids to write letters.</p>
         <div class="tags"><span class="tag">C#</span><span class="tag">Unity</span><span class="tag">Kids</span></div>
         <a class="play" href="https://apps.apple.com/pk/app/alphabet-letter-tracing/id6748381550" target="_blank" rel="noopener">View on App Store →</a>
+      </div>
+    </article>
+
+    <article class="panel crate">
+      <span class="bolt tl"></span><span class="bolt tr"></span>
+      <div class="shot">
+        <picture>
+          <source srcset="/img/games/octopus-tycoon.webp" type="image/webp">
+          <img src="/img/games/octopus-tycoon.jpg" alt="Octopus Energy Tycoon on Roblox" width="900" height="445" loading="lazy" decoding="async">
+        </picture>
+        <span class="chip chip-live"><span class="dot"></span>LIVE</span>
+        <span class="chip chip-plat">ROBLOX</span>
+      </div>
+      <div class="crate-body">
+        <h3>Octopus Energy Tycoon</h3>
+        <p class="role">Game Developer</p>
+        <p>Build your energy empire, expand the plant and stack the profits.</p>
+        <div class="tags"><span class="tag">Luau</span><span class="tag">Tycoon</span><span class="tag">Economy</span></div>
+        <a class="play" href="https://www.roblox.com/games/114201343561910/Octopus-Energy-Tycoon" target="_blank" rel="noopener">Play on Roblox →</a>
       </div>
     </article>
 
@@ -343,6 +347,6 @@
   <p class="fs">Ahsan Hunain · Founder &amp; CEO</p>
 </footer>
 
-<script src="/js/main.js?v=4" defer></script>
+<script src="/js/main.js?v=5" defer></script>
 </body>
 </html>
