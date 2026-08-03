@@ -1,0 +1,4 @@
+# Send www to the apex so Google sees one canonical site.
+# :splat carries the rest of the path through, 301 is permanent.
+https://www.doodlewoodgames.com/* https://doodlewoodgames.com/:splat 301
+http://www.doodlewoodgames.com/*  https://doodlewoodgames.com/:splat 301
