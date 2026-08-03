@@ -16,7 +16,7 @@
 <meta property="og:url" content="https://doodlewoodgames.com/">
 <meta property="og:title" content="DoodleWood Games — Roblox &amp; Unity Game Development Studio">
 <meta property="og:description" content="We build games people actually play. Roblox and Unity titles, built and shipped end to end.">
-<meta property="og:image" content="https://doodlewoodgames.com/img/brand/og-image.jpg">
+<meta property="og:image" content="https://doodlewoodgames.com/img/brand/og-image.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="DoodleWood Games">
@@ -25,7 +25,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DoodleWood Games — Roblox &amp; Unity Game Development Studio">
 <meta name="twitter:description" content="We build games people actually play. Roblox and Unity titles, built and shipped end to end.">
-<meta name="twitter:image" content="https://doodlewoodgames.com/img/brand/og-image.jpg">
+<meta name="twitter:image" content="https://doodlewoodgames.com/img/brand/og-image.jpg?v=2">
 
 <!-- Icons -->
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -35,12 +35,13 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- Fonts, self hosted -->
+<link rel="preload" href="/img/brand/logo-hero.webp" as="image" type="image/webp">
 <link rel="preload" href="/fonts/Baloo2-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Baloo2-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Nunito-400.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- ?v= busts stale copies. Bump it whenever style.css or main.js changes. -->
-<link rel="stylesheet" href="/css/style.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=7">
 
 <script type="application/ld+json">
 {
@@ -48,7 +49,7 @@
   "@type": "Organization",
   "name": "DoodleWood Games",
   "url": "https://doodlewoodgames.com/",
-  "logo": "https://doodlewoodgames.com/img/brand/icon-512.png",
+  "logo": "https://doodlewoodgames.com/img/brand/logo-master.png",
   "description": "Game development studio building Roblox and Unity titles.",
   "founder": {
     "@type": "Person",
@@ -84,7 +85,11 @@
 <!-- ── HERO ─────────────────────────────────────────────────────────── -->
 <section id="top">
   <div class="studio-mark">
-    <svg class="leafpair" viewBox="0 0 44 26" aria-hidden="true"><path d="M22 24C22 24 8 22 4 12 12 4 21 8 22 24Z" fill="#8fd420"/><path d="M22 24C22 24 36 22 40 12 32 4 23 8 22 24Z" fill="#6fb412"/><rect x="21" y="14" width="2" height="12" rx="1" fill="#4a7a12"/></svg>
+    <picture class="hero-logo">
+      <source srcset="/img/brand/logo-hero.webp 1x, /img/brand/logo-hero-2x.webp 2x" type="image/webp">
+      <img src="/img/brand/logo-hero.png" srcset="/img/brand/logo-hero.png 1x, /img/brand/logo-hero-2x.png 2x"
+           alt="DoodleWood Games" width="152" height="96" fetchpriority="high" decoding="async">
+    </picture>
     <div class="dw-name carved">DOODLEWOOD</div>
     <div class="dw-sub"><span class="ln"></span><span class="dw-games">GAMES</span><span class="ln r"></span></div>
   </div>
@@ -344,6 +349,6 @@
   <p class="fs">Ahsan Hunain · Founder &amp; CEO</p>
 </footer>
 
-<script src="/js/main.js?v=6" defer></script>
+<script src="/js/main.js?v=7" defer></script>
 </body>
 </html>

@@ -107,7 +107,9 @@ section{padding:70px 0 30px}
 /* ── HERO ──────────────────────────────────────────────────────────────── */
 #top{padding-top:120px}
 .studio-mark{display:flex;flex-direction:column;align-items:center;gap:6px;margin-bottom:26px}
-.leafpair{display:block;width:44px;height:26px}
+.hero-logo{display:block;width:clamp(124px,20vw,168px);margin-bottom:2px;
+  filter:drop-shadow(0 6px 14px rgba(0,0,0,.55))}
+.hero-logo img{width:100%;height:auto;aspect-ratio:1072/677}
 .dw-name{font-size:clamp(38px,8vw,84px);line-height:.95}
 .dw-sub{display:flex;align-items:center;gap:14px;margin-top:2px}
 .dw-sub .ln{width:52px;height:2px;border-radius:2px;
