@@ -97,17 +97,7 @@ nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:100;
   box-shadow:0 2px 6px rgba(0,0,0,.4)}
 .nb-hire{color:var(--leaf-lt)}
 .nb-hire.on,.nb-hire:hover{color:#1c3308;background:linear-gradient(180deg,var(--leaf-lt),var(--leaf))}
-.nb-brand{display:flex;align-items:center;justify-content:center;
-  width:34px;height:34px;border-radius:999px;flex-shrink:0;
-  margin-right:2px;transition:transform .18s,box-shadow .18s}
-.nb-brand img{width:26px;height:26px;border-radius:7px;display:block}
-.nb-brand:hover{transform:scale(1.06);box-shadow:0 0 0 2px rgba(240,192,74,.28)}
-@media(max-width:520px){
-  .nb{padding:6px 11px;font-size:13px}
-  nav{gap:2px;padding:6px 8px}
-  /* the brand mark already returns you home, so drop the duplicate label */
-  .nb-home{display:none}
-}
+@media(max-width:520px){.nb{padding:6px 11px;font-size:13px}nav{gap:2px;padding:6px 8px}}
 
 /* ── LAYOUT ────────────────────────────────────────────────────────────── */
 .wrap{position:relative;z-index:10;max-width:1120px;margin:0 auto;padding:0 20px}
