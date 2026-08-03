@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lost in the woods — DoodleWood Games</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#241505">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/brand/icon-32.png">
+<link rel="apple-touch-icon" href="/img/brand/icon-180.png">
+<link rel="stylesheet" href="/css/style.css?v=3">
+<style>
+  .lost{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+  .lost-panel{padding:44px 38px 40px;text-align:center;max-width:520px}
+  .lost-code{font-family:var(--display);font-weight:800;font-size:clamp(64px,14vw,110px);
+    line-height:1;color:var(--gold-lt);
+    text-shadow:0 2px 0 var(--gold-dk),0 4px 0 #5e3c0c,0 6px 0 #3d2708,0 9px 14px rgba(0,0,0,.75)}
+  .lost-h{font-family:var(--display);font-weight:800;font-size:clamp(20px,4vw,28px);
+    color:var(--cream);margin:14px 0 8px}
+  .lost-p{font-size:16.5px;color:var(--dim);margin-bottom:26px}
+  .lost-leaf{width:44px;height:26px;margin:0 auto 6px;display:block}
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <div class="planks"></div>
+  <div class="lantern lan-l"></div><div class="lantern lan-r"></div>
+  <div class="canopy"></div>
+</div>
+
+<main class="lost">
+  <div class="panel lost-panel">
+    <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
+    <svg class="lost-leaf" viewBox="0 0 44 26" aria-hidden="true"><path d="M22 24C22 24 8 22 4 12 12 4 21 8 22 24Z" fill="#8fd420"/><path d="M22 24C22 24 36 22 40 12 32 4 23 8 22 24Z" fill="#6fb412"/><rect x="21" y="14" width="2" height="12" rx="1" fill="#4a7a12"/></svg>
+    <p class="lost-code">404</p>
+    <h1 class="lost-h">Lost in the woods</h1>
+    <p class="lost-p">This page does not exist. The games are back this way.</p>
+    <div class="btns">
+      <a href="/" class="btn btn-grn">Back to the studio</a>
+      <a href="/#games" class="btn btn-wd">See the games</a>
+    </div>
+  </div>
+</main>
+
+<script src="/js/main.js?v=3" defer></script>
+</body>
+</html>
