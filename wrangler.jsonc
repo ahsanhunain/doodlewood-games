@@ -1,12 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "doodlewood-games",
+  "main": "worker.js",
   "compatibility_date": "2026-07-31",
   "observability": {
     "enabled": true
   },
   "assets": {
     "directory": ".",
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
   }
 }
