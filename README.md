@@ -27,6 +27,12 @@ Bump the `?v=` number on the `<link>` and `<script>` tags in `index.html`.
 Browsers key their cache on the full URL, so without a bump a returning
 visitor can keep serving the old file.
 
+## Replacing an image
+
+`/img/*` is served with a one year immutable cache, so overwriting a file
+is not enough — returning visitors keep the old one. Either rename the
+file or bump the `?v=` on its URL in `index.html`.
+
 ## Editing images
 
 Source PNGs live in the old Portfolio repo. Re-export as 900px wide WebP
