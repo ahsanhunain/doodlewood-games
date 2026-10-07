@@ -9,9 +9,14 @@
 <link rel="icon" href="/favicon.ico?v=2" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/brand/icon-32.png?v=2">
 <link rel="apple-touch-icon" href="/img/brand/icon-180.png?v=2">
-<link rel="stylesheet" href="/css/style.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=9">
 <style>
-  .lost{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+  .bg{position:fixed;inset:0;z-index:0;background:
+    radial-gradient(ellipse at 50% 30%,transparent 35%,rgba(0,0,0,.72) 100%),
+    repeating-linear-gradient(90deg,transparent 0 158px,var(--seam) 158px 162px),
+    linear-gradient(100deg,var(--wood-1),var(--wood-2) 45%,var(--wood-1))}
+  .lost .btns{justify-content:center}
+  .lost{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
   .lost-panel{padding:44px 38px 40px;text-align:center;max-width:520px}
   .lost-code{font-family:var(--display);font-weight:800;font-size:clamp(64px,14vw,110px);
     line-height:1;color:var(--gold-lt);
@@ -24,11 +29,7 @@
 </head>
 <body>
 
-<div class="bg" aria-hidden="true">
-  <div class="planks"></div>
-  <div class="lantern lan-l"></div><div class="lantern lan-r"></div>
-  <div class="canopy"></div>
-</div>
+<div class="bg" aria-hidden="true"></div>
 
 <main class="lost">
   <div class="panel lost-panel">
@@ -44,6 +45,6 @@
   </div>
 </main>
 
-<script src="/js/main.js?v=6" defer></script>
+<script src="/js/main.js?v=8" defer></script>
 </body>
 </html>

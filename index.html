@@ -5,10 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>DoodleWood Games — Roblox &amp; Unity Game Development Studio</title>
-<meta name="description" content="DoodleWood Games is a game development studio building Roblox and Unity titles. Founded by Ahsan Hunain. See the games and get in touch.">
+<meta name="description" content="DoodleWood Games is a game development studio building Roblox and Unity titles. We design, build and launch games for clients and for ourselves. See the games and get in touch.">
 <link rel="canonical" href="https://doodlewoodgames.com/">
 <meta name="theme-color" content="#241505">
-<meta name="author" content="Ahsan Hunain">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -35,13 +34,13 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- Fonts, self hosted -->
-<link rel="preload" href="/img/brand/logo-hero.webp?v=2" as="image" type="image/webp">
+<link rel="preload" href="/img/games/zombie-escape.webp" as="image" type="image/webp">
 <link rel="preload" href="/fonts/Baloo2-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Baloo2-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Nunito-400.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- ?v= busts stale copies. Bump it whenever style.css or main.js changes. -->
-<link rel="stylesheet" href="/css/style.css?v=7">
+<link rel="stylesheet" href="/css/style.css?v=9">
 
 <script type="application/ld+json">
 {
@@ -50,16 +49,7 @@
   "name": "DoodleWood Games",
   "url": "https://doodlewoodgames.com/",
   "logo": "https://doodlewoodgames.com/img/brand/logo-master.png",
-  "description": "Game development studio building Roblox and Unity titles.",
-  "founder": {
-    "@type": "Person",
-    "name": "Ahsan Hunain",
-    "jobTitle": "Founder & CEO"
-  },
-  "sameAs": [
-    "https://github.com/ahsanhunain",
-    "https://www.linkedin.com/in/ahsan-hunain-93302422b"
-  ]
+  "description": "Game development studio building Roblox and Unity titles."
 }
 </script>
 </head>
@@ -67,214 +57,183 @@
 
 <a class="skip" href="#games">Skip to the games</a>
 
-<div class="bg" aria-hidden="true">
-  <div class="planks"></div>
-  <div class="lantern lan-l"></div><div class="lantern lan-r"></div>
-  <div class="canopy"></div>
-</div>
+<header class="top">
+  <a class="brand" href="#top" aria-label="DoodleWood Games, back to top">
+    <picture>
+      <source srcset="/img/brand/logo-hero.webp?v=2 1x, /img/brand/logo-hero-2x.webp?v=2 2x" type="image/webp">
+      <img src="/img/brand/logo-hero.png?v=2" alt="" width="152" height="96">
+    </picture>
+    <span>DoodleWood Games</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#games" class="nb">Games</a>
+    <a href="#services" class="nb">Services</a>
+    <a href="#contact" class="nb">Contact</a>
+  </nav>
+  <a href="#contact" class="btn btn-grn btn-sm">Start a project</a>
+</header>
 
-<nav aria-label="Main">
-  <a href="#top" class="nb on">Home</a>
-  <a href="#games" class="nb">Games</a>
-  <a href="#studio" class="nb">Studio</a>
-  <a href="#contact" class="nb nb-hire">Contact</a>
-</nav>
-
-<div class="wrap">
+<main>
 
 <!-- ── HERO ─────────────────────────────────────────────────────────── -->
-<section id="top">
-  <div class="studio-mark">
-    <picture class="hero-logo">
-      <source srcset="/img/brand/logo-hero.webp?v=2 1x, /img/brand/logo-hero-2x.webp?v=2 2x" type="image/webp">
-      <img src="/img/brand/logo-hero.png?v=2" srcset="/img/brand/logo-hero.png?v=2 1x, /img/brand/logo-hero-2x.png?v=2 2x"
-           alt="DoodleWood Games" width="152" height="96" fetchpriority="high" decoding="async">
-    </picture>
-    <div class="dw-name carved">DOODLEWOOD</div>
-    <div class="dw-sub"><span class="ln"></span><span class="dw-games">GAMES</span><span class="ln r"></span></div>
-  </div>
-
-  <div class="panel hero-panel">
-    <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
-    <p class="hero-kicker">Game Development Studio</p>
-    <h1 class="hero-h1 carved">We build games<br>people actually play</h1>
-    <p class="hero-p">Roblox and Unity titles, built and shipped end to end.</p>
-    <div class="btns">
-      <a href="#games" class="btn btn-grn">See the games</a>
-      <a href="#contact" class="btn btn-wd">Work with us</a>
+<section id="top" class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1 class="hero-h1 carved">We build games people actually play</h1>
+      <p class="hero-p">DoodleWood is a game studio making Roblox and Unity games, for clients and for ourselves. Six games shipped so far, live on Roblox and the App Store.</p>
+      <div class="btns">
+        <a href="#contact" class="btn btn-grn">Start a project</a>
+        <a href="#games" class="btn btn-wd">See our games</a>
+      </div>
+    </div>
+    <div class="pile" aria-hidden="true">
+      <img class="p1" src="/img/games/monsters.webp" alt="" width="900" height="445">
+      <img class="p2" src="/img/games/letter-tracing.webp" alt="" width="900" height="450">
+      <img class="p3" src="/img/games/octopus-tycoon.webp" alt="" width="900" height="445">
+      <img class="p4" src="/img/games/zombie-escape.webp" alt="" width="900" height="450" fetchpriority="high">
     </div>
   </div>
 </section>
 
 <!-- ── GAMES ────────────────────────────────────────────────────────── -->
-<section id="games">
-  <div class="sign-wrap">
-    <div class="chains" aria-hidden="true"><div class="chain"></div><div class="chain"></div></div>
-    <div class="sign"><h2 class="carved">The Games</h2><p>Live on Roblox and the App Store</p></div>
-  </div>
-  <div class="grid">
+<section id="games" class="games">
+  <div class="wrap">
+    <h2 class="h2">Our games</h2>
 
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
+    <article class="feature panel">
+      <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
+      <a class="feature-shot" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
         <picture>
           <source srcset="/img/games/zombie-escape.webp" type="image/webp">
-          <img src="/img/games/zombie-escape.jpg" alt="Last Town Zombie Escape on Roblox" width="900" height="450" loading="lazy" decoding="async">
+          <img src="/img/games/zombie-escape.jpg" alt="" width="900" height="450" loading="lazy" decoding="async">
         </picture>
-        <span class="chip chip-live"><span class="dot"></span>LIVE</span>
-        <span class="chip chip-plat">ROBLOX</span>
-      </div>
-      <div class="crate-body">
+      </a>
+      <div class="feature-copy">
+        <span class="chip chip-live"><span class="dot"></span>Live on Roblox</span>
         <h3>Last Town: Zombie Escape</h3>
-        <p class="role">Game Developer</p>
-        <p>Multiplayer zombie survival with wave combat and round based play.</p>
-        <div class="tags"><span class="tag">Luau</span><span class="tag">Multiplayer</span><span class="tag">Survival</span></div>
-        <a class="play" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener">Play on Roblox →</a>
+        <p>Multiplayer zombie survival. Team up with friends and hold out through wave after wave, one round at a time.</p>
+        <p class="meta">Multiplayer, wave combat, round based play.</p>
+        <a class="btn btn-grn" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener">Play on Roblox</a>
       </div>
     </article>
 
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
-          <source srcset="/img/games/monsters.webp" type="image/webp">
-          <img src="/img/games/monsters.jpg" alt="Find and Evolve Monsters on Roblox" width="900" height="445" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-live"><span class="dot"></span>LIVE</span>
-        <span class="chip chip-plat">ROBLOX</span>
-      </div>
-      <div class="crate-body">
-        <h3>Find &amp; Evolve Monsters</h3>
-        <p class="role">Game Developer</p>
+    <h3 class="shelf">On Roblox</h3>
+    <div class="row row-3">
+      <article class="game">
+        <a class="game-shot" href="https://www.roblox.com/games/104146074760099/Find-Evolve-MONSTERS" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/monsters.webp" type="image/webp">
+            <img src="/img/games/monsters.jpg" alt="" width="900" height="445" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-live"><span class="dot"></span>Live</span>
+        </a>
+        <h4>Find &amp; Evolve Monsters</h4>
         <p>Collect creatures, evolve them and grow your collection.</p>
-        <div class="tags"><span class="tag">Luau</span><span class="tag">Collection</span><span class="tag">Evolution</span></div>
-        <a class="play" href="https://www.roblox.com/games/104146074760099/Find-Evolve-MONSTERS" target="_blank" rel="noopener">Play on Roblox →</a>
-      </div>
-    </article>
-
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
-          <source srcset="/img/games/zombie-story.webp" type="image/webp">
-          <img src="/img/games/zombie-story.jpg" alt="99 Days Zombie Story on Roblox" width="900" height="445" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-beta"><span class="dot"></span>BETA</span>
-        <span class="chip chip-plat">ROBLOX</span>
-      </div>
-      <div class="crate-body">
-        <h3>99 Days: Zombie Story</h3>
-        <p class="role">Game Developer</p>
-        <p>Story driven survival played out chapter by chapter.</p>
-        <div class="tags"><span class="tag">Luau</span><span class="tag">Story</span><span class="tag">Survival</span></div>
-        <a class="play" href="https://www.roblox.com/games/77487145790598/99-days-Zombie-beta" target="_blank" rel="noopener">Play on Roblox →</a>
-      </div>
-    </article>
-
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
-          <source srcset="/img/games/abc-games.webp" type="image/webp">
-          <img src="/img/games/abc-games.jpg" alt="Endless Alphabet ABC Games on the App Store" width="900" height="450" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-store">APP STORE</span>
-        <span class="chip chip-plat">UNITY · iOS</span>
-      </div>
-      <div class="crate-body">
-        <h3>Endless Alphabet ABC Games</h3>
-        <p class="role">Game Developer</p>
-        <p>A pack of alphabet mini games for young kids on iPhone and iPad.</p>
-        <div class="tags"><span class="tag">C#</span><span class="tag">Unity</span><span class="tag">Kids</span></div>
-        <a class="play" href="https://apps.apple.com/pk/app/endless-alphabet-abc-games/id6740021718" target="_blank" rel="noopener">View on App Store →</a>
-      </div>
-    </article>
-
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
-          <source srcset="/img/games/letter-tracing.webp" type="image/webp">
-          <img src="/img/games/letter-tracing.jpg" alt="Alphabet Letter Tracing on the App Store" width="900" height="450" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-store">APP STORE</span>
-        <span class="chip chip-plat">UNITY · iOS</span>
-      </div>
-      <div class="crate-body">
-        <h3>Alphabet Letter Tracing</h3>
-        <p class="role">Game Developer</p>
-        <p>An underwater tracing adventure that teaches kids to write letters.</p>
-        <div class="tags"><span class="tag">C#</span><span class="tag">Unity</span><span class="tag">Kids</span></div>
-        <a class="play" href="https://apps.apple.com/pk/app/alphabet-letter-tracing/id6748381550" target="_blank" rel="noopener">View on App Store →</a>
-      </div>
-    </article>
-
-    <article class="panel crate">
-      <span class="bolt tl"></span><span class="bolt tr"></span>
-      <div class="shot">
-        <picture>
-          <source srcset="/img/games/octopus-tycoon.webp" type="image/webp">
-          <img src="/img/games/octopus-tycoon.jpg" alt="Octopus Energy Tycoon on Roblox" width="900" height="445" loading="lazy" decoding="async">
-        </picture>
-        <span class="chip chip-live"><span class="dot"></span>LIVE</span>
-        <span class="chip chip-plat">ROBLOX</span>
-      </div>
-      <div class="crate-body">
-        <h3>Octopus Energy Tycoon</h3>
-        <p class="role">Game Developer</p>
+        <p class="meta">Collection and evolution.</p>
+        <a class="play" href="https://www.roblox.com/games/104146074760099/Find-Evolve-MONSTERS" target="_blank" rel="noopener">Play on Roblox<span class="sr"> Find &amp; Evolve Monsters</span></a>
+      </article>
+      <article class="game">
+        <a class="game-shot" href="https://www.roblox.com/games/114201343561910/Octopus-Energy-Tycoon" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/octopus-tycoon.webp" type="image/webp">
+            <img src="/img/games/octopus-tycoon.jpg" alt="" width="900" height="445" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-live"><span class="dot"></span>Live</span>
+        </a>
+        <h4>Octopus Energy Tycoon</h4>
         <p>Build your energy empire, expand the plant and stack the profits.</p>
-        <div class="tags"><span class="tag">Luau</span><span class="tag">Tycoon</span><span class="tag">Economy</span></div>
-        <a class="play" href="https://www.roblox.com/games/114201343561910/Octopus-Energy-Tycoon" target="_blank" rel="noopener">Play on Roblox →</a>
-      </div>
-    </article>
+        <p class="meta">Tycoon and economy.</p>
+        <a class="play" href="https://www.roblox.com/games/114201343561910/Octopus-Energy-Tycoon" target="_blank" rel="noopener">Play on Roblox<span class="sr"> Octopus Energy Tycoon</span></a>
+      </article>
+      <article class="game">
+        <a class="game-shot" href="https://www.roblox.com/games/77487145790598/99-days-Zombie-beta" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/zombie-story.webp" type="image/webp">
+            <img src="/img/games/zombie-story.jpg" alt="" width="900" height="445" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-beta"><span class="dot"></span>Beta</span>
+        </a>
+        <h4>99 Days: Zombie Story</h4>
+        <p>Story driven survival played out chapter by chapter.</p>
+        <p class="meta">Story and survival.</p>
+        <a class="play" href="https://www.roblox.com/games/77487145790598/99-days-Zombie-beta" target="_blank" rel="noopener">Play the beta<span class="sr"> 99 Days: Zombie Story</span></a>
+      </article>
+    </div>
 
+    <h3 class="shelf">On the App Store</h3>
+    <div class="row row-2">
+      <article class="game">
+        <a class="game-shot" href="https://apps.apple.com/pk/app/endless-alphabet-abc-games/id6740021718" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/abc-games.webp" type="image/webp">
+            <img src="/img/games/abc-games.jpg" alt="" width="900" height="450" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-store">App Store</span>
+        </a>
+        <h4>Endless Alphabet ABC Games</h4>
+        <p>A pack of alphabet mini games for young kids.</p>
+        <p class="meta">Unity, iPhone and iPad. Kids learning.</p>
+        <a class="play" href="https://apps.apple.com/pk/app/endless-alphabet-abc-games/id6740021718" target="_blank" rel="noopener">View on the App Store<span class="sr"> Endless Alphabet ABC Games</span></a>
+      </article>
+      <article class="game">
+        <a class="game-shot" href="https://apps.apple.com/pk/app/alphabet-letter-tracing/id6748381550" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/letter-tracing.webp" type="image/webp">
+            <img src="/img/games/letter-tracing.jpg" alt="" width="900" height="450" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-store">App Store</span>
+        </a>
+        <h4>Alphabet Letter Tracing</h4>
+        <p>An underwater tracing adventure that teaches kids to write letters.</p>
+        <p class="meta">Unity, iPhone and iPad. Kids learning.</p>
+        <a class="play" href="https://apps.apple.com/pk/app/alphabet-letter-tracing/id6748381550" target="_blank" rel="noopener">View on the App Store<span class="sr"> Alphabet Letter Tracing</span></a>
+      </article>
+    </div>
   </div>
 </section>
 
-<!-- ── STUDIO ───────────────────────────────────────────────────────── -->
-<section id="studio">
-  <div class="sign-wrap">
-    <div class="chains" aria-hidden="true"><div class="chain"></div><div class="chain"></div></div>
-    <div class="sign"><h2 class="carved">The Studio</h2><p>Who is behind DoodleWood</p></div>
-  </div>
-  <div class="two">
-    <div class="panel founder">
-      <span class="bolt tl"></span><span class="bolt br"></span>
-      <picture class="f-photo">
-        <source srcset="/img/brand/ahsan.webp?v=2 1x, /img/brand/ahsan-2x.webp?v=2 2x" type="image/webp">
-        <img src="/img/brand/ahsan.jpg?v=2" srcset="/img/brand/ahsan.jpg?v=2 1x, /img/brand/ahsan-2x.jpg?v=2 2x"
-             alt="Ahsan Hunain, founder of DoodleWood Games" width="176" height="176"
-             loading="lazy" decoding="async">
-      </picture>
-      <div>
-        <p class="f-name">Ahsan Hunain</p>
-        <p class="f-role">Founder &amp; CEO · Game Developer</p>
-      </div>
+<!-- ── SERVICES ─────────────────────────────────────────────────────── -->
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="svc-head">
+      <h2 class="h2">What we can build for you</h2>
+      <p>Bring us an idea, a half finished project or a game that needs new life. We handle the code, the UI, the sound and the launch.</p>
     </div>
-    <div class="panel pad">
-      <span class="bolt tr"></span><span class="bolt bl"></span>
-      <h3>What we build with</h3>
-      <div class="skills">
-        <span class="sk">Unity</span><span class="sk">Roblox</span>
-        <span class="sk">Android</span><span class="sk">iOS</span>
-        <span class="sk">Steam</span><span class="sk">VR</span>
-        <span class="sk">Multiplayer</span>
-      </div>
-    </div>
+    <ul class="svc-list">
+      <li><h3>Roblox games</h3><p>Full experiences in Luau. Tycoons, survival, simulators and collection games, with saving, shops and game passes built in.</p></li>
+      <li><h3>Unity mobile games</h3><p>Polished games for iOS and Android, from kids learning apps to casual games, taken all the way to the store.</p></li>
+      <li><h3>Multiplayer systems</h3><p>Server side game logic, combat, economies and data saving that hold up when real players join.</p></li>
+      <li><h3>Full game builds</h3><p>Design, code, UI, sound and publishing in one place, so you get a finished game, not a pile of parts.</p></li>
+    </ul>
+
+    <h3 class="shelf">How a project runs</h3>
+    <ol class="steps">
+      <li><b>Tell us the idea</b><span>Send a message with what you want to build and when you need it.</span></li>
+      <li><b>Plan and quote</b><span>We map out the systems and agree on scope and price up front.</span></li>
+      <li><b>Build and playtest</b><span>You get playable builds along the way and give feedback as it grows.</span></li>
+      <li><b>Launch and support</b><span>We publish the game and stay on hand for fixes and updates.</span></li>
+    </ol>
+    <p class="tools">We work in Unity and Roblox Studio, and ship to Roblox, iOS, Android, Steam and VR.</p>
   </div>
 </section>
 
 <!-- ── CONTACT ──────────────────────────────────────────────────────── -->
-<section id="contact">
-  <div class="sign-wrap">
-    <div class="chains" aria-hidden="true"><div class="chain"></div><div class="chain"></div></div>
-    <div class="sign"><h2 class="carved">Get in touch</h2><p>Usually reply same day</p></div>
-  </div>
-  <div class="panel pad" style="max-width:720px;margin:0 auto">
-    <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
-    <h3>Have a game in mind?</h3>
-    <p>Tell us about your project and we will reply within one business day.</p>
-
+<section id="contact" class="contact">
+  <div class="wrap contact-in">
+    <div class="contact-copy">
+      <h2 class="h2">Got a game in mind?</h2>
+      <p>Tell us what you are building, roughly when you need it and your budget range. We reply within one business day.</p>
+      <div class="links">
+        <a class="lnk" href="mailto:doodlewoodgames@gmail.com">
+          <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></span>
+          <span><span class="lnk-t">Email</span><br><span class="lnk-v pick">doodlewoodgames@gmail.com</span></span></a>
+        <a class="lnk" href="https://discord.com/users/doodlewoodgames" target="_blank" rel="noopener">
+          <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 0 0-.0785-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg></span>
+          <span><span class="lnk-t">Discord</span><br><span class="lnk-v">doodlewoodgames, the fastest way to reach us</span></span></a>
+      </div>
+    </div>
+    <div class="panel pad form-panel">
+      <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
     <form id="contactForm" class="cform" novalidate>
       <!-- Web3Forms public access key; safe to expose, it only routes mail. -->
       <input type="hidden" name="access_key" value="1fe3288f-6703-4858-a248-f72d30bc96b4">
@@ -319,36 +278,28 @@
           placeholder="What are you building, roughly when do you need it, and what is the budget range?"></textarea>
       </div>
 
-      <button type="submit" class="btn btn-grn fsend">Send message</button>
+      <button type="submit" class="btn btn-grn fsend">Send project details</button>
       <p class="fnote" id="formNote" role="status" aria-live="polite"></p>
     </form>
-
-    <div class="or"><span>or reach us directly</span></div>
-
-    <div class="links">
-      <a class="lnk" href="mailto:ahsanhunain322@gmail.com">
-        <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></span>
-        <span><span class="lnk-t">Email</span><br><span class="lnk-v pick">ahsanhunain322@gmail.com</span></span></a>
-      <a class="lnk" href="https://discord.com/users/doodlewoodgames" target="_blank" rel="noopener">
-        <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 0 0-.0785-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg></span>
-        <span><span class="lnk-t">Discord</span><br><span class="lnk-v">doodlewoodgames · fastest</span></span></a>
-      <a class="lnk" href="https://github.com/ahsanhunain" target="_blank" rel="noopener">
-        <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>
-        <span><span class="lnk-t">GitHub</span><br><span class="lnk-v">github.com/ahsanhunain</span></span></a>
-      <a class="lnk" href="https://www.linkedin.com/in/ahsan-hunain-93302422b" target="_blank" rel="noopener">
-        <span class="lnk-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
-        <span><span class="lnk-t">LinkedIn</span><br><span class="lnk-v">Ahsan Hunain</span></span></a>
     </div>
   </div>
 </section>
 
-</div>
+</main>
 
-<footer>
-  <p class="fm">DOODLEWOOD GAMES</p>
-  <p class="fs">Ahsan Hunain · Founder &amp; CEO</p>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand">
+      <img src="/img/brand/logo-hero.webp?v=2" alt="" width="152" height="96" loading="lazy">
+      <p><b>DoodleWood Games</b><br>Roblox and Unity game studio</p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#games">Games</a><a href="#services">Services</a><a href="#contact">Contact</a>
+    </nav>
+    <p class="foot-c">&copy; 2026 DoodleWood Games<br><a href="mailto:doodlewoodgames@gmail.com">doodlewoodgames@gmail.com</a></p>
+  </div>
 </footer>
 
-<script src="/js/main.js?v=7" defer></script>
+<script src="/js/main.js?v=8" defer></script>
 </body>
 </html>

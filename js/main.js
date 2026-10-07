@@ -44,7 +44,7 @@
       if (!key || key.indexOf('REPLACE_') === 0) {
         note.className = 'fnote bad';
         note.innerHTML = 'The form is not connected yet. Email ' +
-          '<a href="mailto:ahsanhunain322@gmail.com">ahsanhunain322@gmail.com</a> for now.';
+          '<a href="mailto:doodlewoodgames@gmail.com">doodlewoodgames@gmail.com</a> for now.';
         return;
       }
 
@@ -74,8 +74,8 @@
         })
         .catch(function () {
           note.className = 'fnote bad';
-          note.innerHTML = 'Could not send. Email <a href="mailto:ahsanhunain322@gmail.com">' +
-                           'ahsanhunain322@gmail.com</a> instead.';
+          note.innerHTML = 'Could not send. Email <a href="mailto:doodlewoodgames@gmail.com">' +
+                           'doodlewoodgames@gmail.com</a> instead.';
         })
         .finally(function () {
           btn.disabled = false;
