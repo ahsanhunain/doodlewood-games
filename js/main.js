@@ -84,6 +84,23 @@
     });
   }
 
+  /* Showcase videos: play only while on screen, never for reduced motion.
+     preload="none" keeps the 6 MB file off the network until it is needed. */
+  var vids = [].slice.call(document.querySelectorAll('video.autoplay'));
+  if (vids.length && !reduced && 'IntersectionObserver' in window) {
+    var vobs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          var p = e.target.play();
+          if (p && p.catch) p.catch(function () {});
+        } else {
+          e.target.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+    vids.forEach(function (v) { vobs.observe(v); });
+  }
+
   if ('IntersectionObserver' in window) {
     var obs = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {

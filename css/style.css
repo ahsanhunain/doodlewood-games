@@ -152,6 +152,8 @@ main .hero{padding:72px 0 96px}
 .feature-shot{display:block;border-radius:10px;overflow:hidden;aspect-ratio:2/1;
   box-shadow:inset 0 0 0 2px rgba(0,0,0,.55),0 4px 14px rgba(0,0,0,.5)}
 .feature-shot img{width:100%;height:100%;object-fit:cover}
+.feature-video{aspect-ratio:1152/702;background:#0d0803}
+.feature-video video{display:block;width:100%;height:100%;object-fit:cover}
 .feature-copy .chip{position:static;display:inline-flex;margin-bottom:14px}
 .feature h3{font-family:var(--display);font-weight:800;font-size:clamp(26px,3vw,34px);line-height:1.1;
   color:var(--gold-lt);margin-bottom:10px}

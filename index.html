@@ -40,7 +40,7 @@
 <link rel="preload" href="/fonts/Nunito-400.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- ?v= busts stale copies. Bump it whenever style.css or main.js changes. -->
-<link rel="stylesheet" href="/css/style.css?v=9">
+<link rel="stylesheet" href="/css/style.css?v=10">
 
 <script type="application/ld+json">
 {
@@ -80,7 +80,7 @@
   <div class="wrap hero-in">
     <div class="hero-copy">
       <h1 class="hero-h1 carved">We build games people actually play</h1>
-      <p class="hero-p">DoodleWood is a game studio making Roblox and Unity games, for clients and for ourselves. Six games shipped so far, live on Roblox and the App Store.</p>
+      <p class="hero-p">DoodleWood is a game studio making Roblox and Unity games, for clients and for ourselves. Seven games shipped so far, live on Roblox and the App Store.</p>
       <div class="btns">
         <a href="#contact" class="btn btn-grn">Start a project</a>
         <a href="#games" class="btn btn-wd">See our games</a>
@@ -102,23 +102,36 @@
 
     <article class="feature panel">
       <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
-      <a class="feature-shot" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
-        <picture>
-          <source srcset="/img/games/zombie-escape.webp" type="image/webp">
-          <img src="/img/games/zombie-escape.jpg" alt="" width="900" height="450" loading="lazy" decoding="async">
-        </picture>
+      <a class="feature-shot feature-video" href="https://www.roblox.com/games/125801003249650/Spin-An-Egg" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+        <video class="autoplay" muted loop playsinline preload="none" width="1152" height="702"
+               poster="/img/games/spin-an-egg.webp">
+          <source src="/video/spin-an-egg.mp4" type="video/mp4">
+        </video>
       </a>
       <div class="feature-copy">
         <span class="chip chip-live"><span class="dot"></span>Live on Roblox</span>
-        <h3>Last Town: Zombie Escape</h3>
-        <p>Multiplayer zombie survival. Team up with friends and hold out through wave after wave, one round at a time.</p>
-        <p class="meta">Multiplayer, wave combat, round based play.</p>
-        <a class="btn btn-grn" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener">Play on Roblox</a>
+        <h3>Spin An Egg</h3>
+        <p>Spin for a random egg, hatch it and fill your pen with rare animals that earn cash every second. Upgrade your luck and rebirth to find rarer eggs and bigger animals.</p>
+        <p class="meta">Egg rolling, hatching, idle earnings, rebirths.</p>
+        <a class="btn btn-grn" href="https://www.roblox.com/games/125801003249650/Spin-An-Egg" target="_blank" rel="noopener">Play on Roblox</a>
       </div>
     </article>
 
-    <h3 class="shelf">On Roblox</h3>
-    <div class="row row-3">
+    <h3 class="shelf">More on Roblox</h3>
+    <div class="row row-2">
+      <article class="game">
+        <a class="game-shot" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source srcset="/img/games/zombie-escape.webp" type="image/webp">
+            <img src="/img/games/zombie-escape.jpg" alt="" width="900" height="450" loading="lazy" decoding="async">
+          </picture>
+          <span class="chip chip-live"><span class="dot"></span>Live</span>
+        </a>
+        <h4>Last Town: Zombie Escape</h4>
+        <p>Multiplayer zombie survival. Team up and hold out through wave after wave.</p>
+        <p class="meta">Multiplayer and wave combat.</p>
+        <a class="play" href="https://www.roblox.com/games/85958529399721/UPD-LAST-TOWN-Zombie-Escape" target="_blank" rel="noopener">Play on Roblox<span class="sr"> Last Town: Zombie Escape</span></a>
+      </article>
       <article class="game">
         <a class="game-shot" href="https://www.roblox.com/games/104146074760099/Find-Evolve-MONSTERS" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
           <picture>
@@ -300,6 +313,6 @@
   </div>
 </footer>
 
-<script src="/js/main.js?v=8" defer></script>
+<script src="/js/main.js?v=9" defer></script>
 </body>
 </html>

@@ -18,8 +18,10 @@
 /js/*
   Cache-Control: public, max-age=600, must-revalidate
 
-# Fonts and images are versioned by filename in practice, safe to pin.
+# Fonts, images and videos are versioned by filename in practice, safe to pin.
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 /img/*
+  Cache-Control: public, max-age=31536000, immutable
+/video/*
   Cache-Control: public, max-age=31536000, immutable
